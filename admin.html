@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <title>Ichiban | 一番 - Admin </title>
+  <meta property="og:image" content="https://static.thenounproject.com/png/842331-200.png">
+  <link href="https://static.thenounproject.com/png/842331-200.png" rel="icon">
+  <meta name="title" content="Ichiban">
+  <meta name="description" content="Coming Soon">
+  <meta property="og:url" content="https://Ichiban.netlify.app">
+  <meta property="og:image" content="https://vignette.wikia.nocookie.net/typemoon/images/f/f7/Rin_Kaleido_%28PRISMA%29.png/revision/latest?cb=20170930154410">
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/admin.css">
+
+  </head>
+  
+
+    
+  
+  
+  
+     <!-- A grey horizontal navbar that becomes vertical on small screens -->
+     <body data-spy="scroll" data-target=".navbar">
+      <nav class="navbar navbar-expand-md  navbar-warning sticky-top bg-clear">
+        <a class="navbar-brand" href="#">
+          <img src="media/image/anime_feet_girl.png" alt="otsuka_pharmeceutical.png" style="width:60px;">
+        </a>
+   
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/information.html">Information</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contact.html">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./signin.html">Sign-in</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="/anime-directory.html">Anime Directory</a>
+    </li>
+  </ul>
+  
+</nav>
+
+<div class="CC">
+  <p class="clock" style="padding: 0;"><div id="DigitalCLOCK" class="clock" onload="showTime()"></div></p>
+  <p class="clock" style="padding: 0;"><div id="date" class="clock"></div></p>
+</div>
+
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+<script>
+$(document).ready(function() {
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+    $('#toTopBtn').fadeIn();
+    } else {
+    $('#toTopBtn').fadeOut();
+    }
+    });
+    
+    $('#toTopBtn').click(function() {
+    $("html, body").animate({
+    scrollTop: 0
+    }, 1000);
+    return false;
+    });
+    });
+    </script>
+    <audio loop autoplay>
+      <source src="../media/audio/bgm/cold_skies_jf.mp3" type="audio/mp3">
+    </audio>
+<script src="js/index.js"></script>
+<script src="js/date.js"></script>
+<script src="js/background_music.js"></script>
+</html>

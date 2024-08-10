@@ -1,0 +1,310 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background: url();
+    background-repeat: no-repeat;
+    font-family: "Balsamiq Sans", cursive;
+  
+}
+
+
+h4 {
+    font-size: 14px;
+    color: white;
+    margin: 0 0 16px 0;
+    text-shadow:1px 1px 10px blue, 1px 1px 10px blue;
+  }
+  
+  .social_icons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .social_icons i {
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: var(--sbShadow);
+    font-size: 28px;
+   
+  }
+  .social_icons i:nth-child(1) {
+    /* background-image: linear-gradient(315deg,#0078ff -7.64,#00c6ff 104.5%); */
+    background-image: linear-gradient(315deg, #0078ff, #00c6ff);
+  }
+  .social_icons i:nth-child(1):hover {
+    color: #0078ff;
+    background-image: linear-gradient(
+      to bottom,
+      #e8eaec,
+      rgba(189, 200, 213, 0.795)
+    );
+    text-shadow: 2px 2px 3px #b8b9be, -2px -2px -2px #fff;
+  }
+  
+  .social_icons i:nth-child(2) {
+    /* background-image: linear-gradient(315deg,#4949e7 -6.1,#5eb2fc 101.5%); */
+    background-image: linear-gradient(315deg, #4949e7, #5eb2fc);
+  }
+  
+  .social_icons i:nth-child(2):hover {
+    color: #5662e9;
+    background-image: linear-gradient(
+      to bottom,
+      #e8eaec,
+      rgba(189, 200, 213, 0.795)
+    );
+    text-shadow: 2px 2px 3px #b8b9be, -2px -2px -2px #fff;
+  }
+  
+  .social_icons i:nth-child(3) {
+    /* background-image: linear-gradient(315deg,#02b7ff -7.64,#92cdfa 104.5%); */
+    background-image: linear-gradient(315deg, #02b7ff, #92cdfa);
+  }
+  
+  .social_icons i:nth-child(3):hover {
+    color: #00acee;
+    background-image: linear-gradient(
+      to bottom,
+      #e8eaec,
+      rgba(189, 200, 213, 0.795)
+    );
+    text-shadow: 2px 2px 3px #b8b9be, -2px -2px -2px #fff;
+  }
+  
+  .social_icons i:nth-child(4) {
+    /* background-image: linear-gradient(315deg,#02b7ff -7.64,#92cdfa 104.5%); */
+    background-image: linear-gradient(315deg, #b9215c, #de4882);
+  }
+  
+  .social_icons i:nth-child(4):hover {
+    color: #de4882;
+    background-image: linear-gradient(
+      to bottom,
+      #e8eaec,
+      rgba(189, 200, 213, 0.795)
+    );
+    text-shadow: 2px 2px 3px #b8b9be, -2px -2px -2px #fff;
+  }
+  
+/* Text Align */
+.text-c {
+    text-align: center;
+}
+.text-l {
+    text-align: left;
+}
+.text-r {
+    text-align: right
+}
+.text-j {
+    text-align: justify;
+}
+
+/* Text Color */
+.text-bluebois {
+    color: white;
+    text-shadow:1px 1px 10px blue, 1px 1px 10px blue;
+}
+.text-darkyellow {
+    color: rgb(89, 207, 253)
+}
+
+/* Lines */
+
+.line-b {
+    border-bottom: 1px solid #00ff00 !important;
+}
+
+/* Buttons */
+.button {
+    border-radius: 3px;
+}
+.form-button {
+    
+    background-color: rgba(1, 25, 243, 0.897);
+    border-color: rgba(1, 25, 243, 0.897);
+    color: #e6e6e6;
+}
+.form-button:hover,
+.form-button:focus,
+.form-button:active,
+.form-button.active,
+.form-button:active:focus,
+.form-button:active:hover,
+.form-button.active:hover,
+.form-button.active:focus {
+    background-color: white;
+    border-color: white;
+    color: blue;
+}
+.form-button:active {
+    transform: translateY(4px);
+}
+.button-l {
+    width: 100% !important;
+}
+hr {
+    background: blue;
+}
+/* Margins g(global) - l(left) - r(right) - t(top) - b(bottom) */
+
+.margin-g {
+    margin: 15px;
+}
+.margin-g-sm {
+    margin: 10px;
+}
+.margin-g-md {
+    margin: 20px;
+}
+.margin-g-lg {
+    margin: 30px;
+}
+
+.margin-l {
+    margin-left: 15px;
+}
+.margin-l-sm {
+    margin-left: 10px;
+}
+.margin-l-md {
+    margin-left: 20px;
+}
+.margin-l-lg {
+    margin-left: 30px;
+}
+
+.margin-r {
+    margin-right: 15px;
+}
+.margin-r-sm {
+    margin-right: 10px;
+}
+.margin-r-md {
+    margin-right: 20px;
+}
+.margin-r-lg {
+    margin-right: 30px;
+}
+
+.margin-t {
+    margin-top: 15px;
+}
+.margin-t-sm {
+    margin-top: 10px;
+}
+.margin-t-md {
+    margin-top: 20px;
+}
+.margin-t-lg {
+    margin-top: 30px;
+}
+
+.margin-b {
+    margin-bottom: 15px;
+}
+.margin-b-sm {
+    margin-bottom: 10px;
+}
+.margin-b-md {
+    margin-bottom: 20px;
+}
+.margin-b-lg {
+    margin-bottom: 30px;
+}
+
+/* Bootstrap Form Control Extension */
+
+.form-control,
+.border-line {
+    background-color: #5f5f5f;
+    background-image: none;
+    border: 1px solid #424242;
+    border-radius: 1px;
+    color: inherit;
+    display: block;
+    padding: 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
+.form-control:focus,
+.border-line:focus {
+    border-color: #0000FF;
+    background-color: #616161;
+    color: #e6e6e6;
+}
+.form-control,
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control::-webkit-input-placeholder { color: #BDBDBD; }
+
+/* Container */
+
+.container-content {
+    background-color: #3a3a3aa2;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #0000FF;
+    background: url(https://img4.goodfon.com/wallpaper/big/2/7c/charlotte-tomori-nao-art-devushka-noch-forma-shkolnitsa-zaka.jpg);
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+
+/* Backgrounds */
+.CC {
+    position: absolute;
+    top: -1px;
+    right: 8px;
+    transform: translateX(-100%, -100%)
+}
+.clock {
+    color: white;
+    text-shadow:1px 1px 10px blue, 1px 1px 10px blue;
+}
+.year {
+    color: white;
+} 
+.main-bg {
+
+    background-image: url(../media/image/wallpapers/898689.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+      background-size: cover;
+}
+
+/* Login & Register Pages*/
+
+.login-container {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.login.login-container {
+    width: 300px;
+}
+.wrapper.login-container {
+    margin-top: 140px;
+}
+.logo-badge {
+    color: #e6e6e6;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+}
+
+
+
+.disclaimer {
+    color: white;
+   
+}

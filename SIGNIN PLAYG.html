@@ -1,0 +1,42 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+      <link href="css/signin.css" rel="stylesheet">
+      <title>Ichiban | 一番 - Sign in </title>
+      <meta property="og:image" content="https://static.thenounproject.com/png/842331-200.png">
+      <link href="https://static.thenounproject.com/png/842331-200.png" rel="icon">
+    </head>
+
+<body class="main-bg">
+    <div class="login-container text-c animated flipInX">
+            <div>
+                <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+            </div>
+                <h3 class="text-bluebois">Ichiban | 一番</h3>
+                <p class="text-bluebois">Sign In</p>
+                    <hr>
+                <form class="margin-t" method="GET">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" required="" name="Username">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="password" class="form-control" placeholder="Password" required="">
+                    </div>
+                    <button type="submit" class="form-button button-l margin-b">Sign In</button>
+    
+                    <a class="text-darkyellow" href="./recovery.html"><small>Forgot your password?</small></a>
+
+                    <p><a class="text-darkyellow" href="./registration.html"><small>Don't have an account?</small></a></p>
+                </form>
+                <p class="margin-t text-whitesmoke" style="color: white;"><small> Copyright @Damian 2022. All Rights Reserved</small> </p>
+        </div>
+    </body>
+
+    <?<php>
+        $Username = $_GET["Username"];
+        echo $Username;
+        $Password = $_GET["Password"]; 
+        echo $Password;
+    </php>

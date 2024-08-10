@@ -1,0 +1,66 @@
+<!doctype html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css">
+      <link href="css/signin.css" rel="stylesheet">
+      <title>Ichiban | 一番 - Sign in </title>
+      <meta property="og:image" content="https://static.thenounproject.com/png/842331-200.png">
+      <link href="https://static.thenounproject.com/png/842331-200.png" rel="icon">
+      <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+
+<body class="main-bg">
+    <div class="CC">
+        <p class="clock" style="padding: 0;"><div id="message" class="clock" onload="showTime()"></div></p>
+        <p class="clock" style="padding: 0;"><div id="DigitalCLOCK" class="clock" onload="showTime()"></div></p>
+      <p class="clock" style="padding: 0;"><div id="DigitalCLOCK" class="clock" onload="showTime()"></div></p>
+      <p class="clock" style="padding: 0;"><div id="date" class="clock"></div></p>
+      <p class="clock" style="padding: 0;"><div id="year" class="clock"></div></p>
+      <p class="clock" style="padding: 0;"><div id="Date" class="clock" onload="showDate()"></div></p>
+    </div>
+    <div class="login-container text-c animated flipInX">
+            <div>
+                <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
+            </div>
+                <h3 class="text-bluebois">Ichiban Studios | 一番</h3>
+                <p class="text-bluebois">Sign In</p>
+                    <hr>
+                <form class="margin-t">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Username" required="">
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="password" class="form-control" p   laceholder="Password" required="">
+                    </div> 
+                    <button type="submit" class="form-button button-l margin-b">Sign In</button>
+    
+                    <a class="text-darkyellow" href="./recovery.html"><small>Forgot your password?</small></a>
+
+                    <p><a class="text-darkyellow" href="./registration.html"><small>Don't have an account?</small></a></p>
+
+                    <h4>Or Sign In With Your Socials</h4>
+
+      <div class="social_icons">
+        <i class="bx bxl-facebook"></i>
+        <div class="flex items-center justify-center h-screen bg-discord-gray text-white" >
+            <a id="login" href="https://google.com"> </a>
+            <i class="bx bxl-discord-alt"></i>
+                
+            </a>
+        </div>
+        <i class="bx bxl-twitter"></i>
+        <i class="bx bxl-google"></i>
+      </div>
+      <!-- <div class="disclaimer">This Doesn't Work Yet. Your Profile Will Not Be Created, We Are Still Developing this Feature.</div>
+                </form> -->
+
+                <p class="margin-t text-whitesmoke" style="color: white;"><small> Copyright @Damian 2022. All Rights Reserved</small> </p>
+        </div>
+
+        <script src="js/index.js"></script>
+        <script src="js/date.js"></script>
+    
+    </body>
+   

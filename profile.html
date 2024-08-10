@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <title>Ichiban | 一番</title>
+  <meta name="title" content="${Username}'s Profile">
+  <meta name="description" content="View ${Username}'s Profile on Ichiban Studios">
+  <meta property="og:url" content="https://ichibanstudios.netlify.app">
+  <meta property="og:image" content="img/sad_chibi.png">
+  <meta charset="utf-8">
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <meta property="og:image" content="media/image/sad_chibi.png">
+  <link href="media/image/sad_chibi.png" rel="icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/profile.css">
+  <script src="js/index.js"></script>
+  <script src="js/date.js"></script>
+  </head>
+  
+     <!-- A grey horizontal navbar that becomes vertical on small screens -->
+     <body data-spy="scroll" data-target=".navbar">
+     <nav class="navbar navbar-expand-md  navbar-warning sticky-top bg-clear">
+        <a class="navbar-brand" href="#">
+          <img src="media/image/chocola_chibi.png" alt="otsuka_pharmeceutical.png" style="width:60px;">
+        </a>
+   
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link" href="./index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./information.html">Information</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./contact.html">Contact</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./gallery.html">Gallery</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./signin.html">Sign-in</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./anime-directory.html">Anime Directory</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="./profile.html" >Profile</a>
+    </li>
+  </ul>
+  
+</nav>
+
+<body>
+    <div class="pfp"></div>
+    <img src="media/image/sad_chibi.png" class="pfpimg"> </img>
+
+
+    <img src="./media/image/anime_feet_girl.png" class="name"></img>
+
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true"></a>
+<script>
+$(document).ready(function() {
+    $(window).scroll(function() {
+    if ($(this).scrollTop() > 20) {
+    $('#toTopBtn').fadeIn();
+    } else {
+    $('#toTopBtn').fadeOut();
+    }
+    });
+    
+    $('#toTopBtn').click(function() {
+    $("html, body").animate({
+    scrollTop: 0
+    }, 1000);
+    return false;
+    });
+    });
+    </script>
+
+<!--Footer-->
+    <footer>
+       <p><a href="#" class="btn btn-info" role="button"></a> Copyright @Damian 2021. All Rights Reserved <a href="#" class="btn btn-info" role="button"></a></p><p></p>
+   <p><a href="./tos.html" class="btn btn-info" role="button"> Terms Of Service</a>  <a href="https://discord.gg/4Gch9Tm6U8" class="btn btn-primary" role="button"> Discord </a> </p>
+ 
+</footer>
+  </body>
+</html>

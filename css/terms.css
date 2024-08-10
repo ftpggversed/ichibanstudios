@@ -1,0 +1,132 @@
+body {
+    background-image: url(../media/image/wallpapers/898689.png);
+    background-attachment: fixed;
+background-repeat: no-repeat;
+background-size:cover;
+height: 100%;
+white-space: nowrap;
+overflow-x: hidden;
+  }
+
+  
+.ToSTitle {
+    text-align: center;
+    color: white;
+}
+.ToSDescription{
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.ToSUpdation {
+    text-align: center;
+    color: white;
+}
+
+.agree-to-terms {
+  color: white;
+  text-decoration: none;
+}
+.agree-to-terms:hover {
+  color: white;
+  text-decoration: none;
+  text-shadow:1px 1px 10px white, 1px 1px 10px white;
+  cursor: pointer;
+}
+.IMPORTANT {
+    text-align: center;
+    color: red;
+}
+.AccessToSite {
+    text-align: center;
+    color: white;
+}
+.AccessToSiteDescription{
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.ThirdPartiesTitle {
+    text-align: center;
+    color: white;
+}
+.ThirdPartiesDescription{
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.DisclaimerTitle {
+    text-align: center;
+    color: white;
+}
+.DisclaimerDescription {
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.LimitationsTitle {
+    text-align: center;
+    color: white;
+}
+.LimitationsDescription {
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.HeaderTOS {
+    text-align: center;
+    color: blue;
+    margin-bottom: 25px;
+}
+.CopyrightPolicyTitle {
+    text-align: center;
+    color: white;
+}
+.CopyrightPolicyDescription {
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.GeneralTitle {
+    text-align: center;
+    color: white;
+}
+.GeneralDescription {
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.Extra {
+    text-align: center;
+    color: white;
+    white-space: pre-wrap;
+}
+.list {
+  color: white;
+  white-space: pre-wrap;
+}
+
+
+
+
+.header {
+position: fixed;
+top: 0;
+z-index: 1;
+width: 100%;
+background-color: #f1f1f1;
+}
+
+/* The progress container (grey background) */
+.progress-container {
+width: 100%;
+height: 8px;
+background: #ccc;
+}
+
+/* The progress bar (scroll indicator) */
+.progress-bar {
+height: 8px;
+background: #0000FF;
+width: 0%;
+}

@@ -1,0 +1,160 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  /*   background: black; */
+  
+  /*     Glitch Effect Girl */
+  /*   background-image: url("https://images5.alphacoders.com/968/thumb-1920-968380.png"); */
+  /*   sky */
+  /*   background-image: url("https://wallpaper.dog/large/20471313.png"); */
+  /*   Raining Cat */
+    background-image: url("https://wallpaperaccess.com/full/2014465.png");
+  /*     Aesthetic City */
+  /* background-image: url("https://wallpaperforu.com/wp-content/uploads/2021/04/Retro-Anime-Aesthetic-Desktop-Wallpapers161280x800.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+  .container {
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card {
+    width: 30rem;
+      height: 20rem;
+      box-shadow: 0 0 1rem 0 rgba(0, 181, 204, 1);	
+      border-radius: 5px;
+      background-color: rgba(255, 255, 255, .15);
+      
+      backdrop-filter: blur(5px);
+  }
+  
+  .error {
+    color: white;
+    text-align: center;
+  }
+  .title {
+   font-size: 100px; 
+   padding-top: 0.5px;
+  }
+  .links {
+    color: white;
+    text-align: left
+  }
+  
+  .description {
+    padding-left: 2px;
+    padding-right: 2px;
+    
+  }
+  
+  .Sailor {
+    color: white;
+    position: absolute;
+    bottom: -.05%;
+    right: -.05%;
+    transform: translate(-1%, -1%);
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+
+  .Amaya {
+    color: white;
+    bottom: -.05%;
+    right: -.05%;
+    transform: translate(0.5%, -1%);
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+  }
+  
+  
+  :root {
+    --clr-neon: rgba(0, 181, 204, 1);
+    --clr-bg: hsl(323 21% 16%);
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  
+  body {
+    
+    font-family: "Balsamiq Sans", cursive;
+    color: var(--clr-neon);
+    padding-right: 10rem;
+  }
+  
+  .neon-button {
+    font-size: 2rem;
+  
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-neon);
+    border: var(--clr-neon) 0.125em solid;
+    padding: 0.25em 1em;
+    border-radius: 0.25em;
+  
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 0.45em currentColor;
+  
+    box-shadow: inset 0 0 0.5em 0 var(--clr-neon), 0 0 0.5em 0 var(--clr-neon);
+  
+    position: relative;
+  }
+  
+  .neon-button::before {
+    pointer-events: none;
+    content: "";
+    position: absolute;
+    background: var(--clr-neon);
+    top: 120%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  
+    transform: perspective(1em) rotateX(40deg) scale(1, 0.35);
+    filter: blur(1em);
+    opacity: 0.7;
+  }
+  
+  .neon-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 2em 0.5em var(--clr-neon);
+    opacity: 0;
+    background-color: var(--clr-neon);
+    z-index: -1;
+    transition: opacity 100ms linear;
+  }
+  
+  .neon-button:hover,
+  .neon-button:focus {
+    color: var(--clr-bg);
+    text-shadow: none;
+  }
+  
+  .neon-button:hover::before,
+  .neon-button:focus::before {
+    opacity: 1;
+  }
+  .neon-button:hover::after,
+  .neon-button:focus::after {
+    opacity: 1;
+  }
+  

@@ -1,0 +1,72 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Show Title:</h3>
+        <p>Show Description:</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Show Title:</h3>
+        <p>Show Description:</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Show Title:</h3>
+        <p>Show Description:</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="" class="btn btn-warning" role="button"> Our Sponsors </a>
+
+
+https://bootsnipp.com/snippets/P2gor
+https://css-tricks.com/seamless-responsive-photo-grid/
+
+  linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.hdqwalls.com/wallpapers/anime-girl-mask-minimal-4k-ja.jpg")
+
+
+  <div class="container-content"></div>
+    <p class="Welcome-Description">Welcome to the Ichiban Studios Website! Here you can view stuff like upcoming anime shows and manga, News and information, make a MAL List,
+
+
+
+    [Window Title]
+Visual Studio Code
+
+[Main Instruction]
+The window has crashed (reason: 'crashed', code: '-1073741674')
+
+[Content]
+We are sorry for the inconvenience. You can reopen the window to continue where you left off.
+
+[Reopen] [Close]
+
+
+
+
+
+
+
+
+
+  .section {
+    display: grid;
+  justify-content: center;
+  align-content: center;
+  gap: 4px;
+  grid-auto-flow: column;
+  }
+    .item-center {
+      display: grid;
+      grid-auto-flow: column;
+      gap: 4px;
+      color: white;
+      align-items: center;
+      justify-items: center;
+
+  }
+
+   <section class="item-center">
+  <div>1</div>
+  <div>2</div>
+  <div>3</div>
+</section>

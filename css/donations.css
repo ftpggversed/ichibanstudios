@@ -1,0 +1,108 @@
+
+ body {
+    background-image: url(../media/image/wallpapers/898689.png);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100%;
+font-family: "Balsamiq Sans", cursive;
+    overflow-x: hidden;
+  }
+
+  hr { display: block; height: 1px;
+    border: 0; border-top: 3px solid white;
+    margin: 1em 0; padding: 0;  box-shadow: 0 0 1rem 0 rgb(25, 0, 255); }
+
+   .title {
+     color: white;
+    text-shadow:1px 1px 10px blue, 1px 1px 10px blue;
+    text-align: center;
+   }
+
+   .goal {
+    text-align: center;
+    color: white;
+   }
+
+   .col {
+       color: white;
+       text-align: center;
+   }
+   a:hover {
+    color: blue;
+    }
+    a:link {
+     color: white;
+     border: 2px solid blue;
+     background-color: Black;
+    }
+    a:visited {
+        border: 2px solid blue;
+     background-color: black;
+     color: white;
+    }
+    a:hover, a:active {
+    background-color: blue;
+    color: white;
+    }
+
+    
+        footer {
+          position: bottom;
+          width: 100%;
+          left: 0;
+          bottom: 0;
+            color: white;
+          text-align: center;
+          clear: both;
+        }
+    
+     
+    
+        .scroll {
+        color: #fff;
+        margin-top: 100px
+    }
+    
+    #toTopBtn {
+        position: fixed;
+        bottom: 26px;
+        right: 39px;
+        z-index: 98;
+        padding: 21px;
+        background-color: (#0000FF);
+    }
+    
+    .js .cd-top--fade-out {
+        opacity: .5
+    }
+    
+    .js .cd-top--is-visible {
+        visibility: visible;
+        opacity: 1
+    }
+    
+    .js .cd-top {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity .3s, visibility .3s, background-color .3s
+    }
+    
+    .cd-top {
+        position: fixed;
+        bottom: 20px;
+        bottom: var(--cd-back-to-top-margin);
+        right: 20px;
+        right: var(--cd-back-to-top-margin);
+        display: inline-block;
+        height: 40px;
+        height: var(--cd-back-to-top-size);
+        width: 40px;
+        width: var(--cd-back-to-top-size);
+        box-shadow: 0 0 10px (#0000FF) !important;
+        background: url(https://res.cloudinary.com/dxfq3iotg/image/upload/v1571057658/cd-top-arrow.svg) no-repeat center 50%;
+        background-color: (#0000FF);
+        background-color: hsla(var(--cd-color-3-h), var(--cd-color-3-s), var(--cd-color-3-l), 0.8)
+    }
+    
+    
+    
