@@ -31,16 +31,36 @@ a:hover {
     color: white;
     }
 
-    .box {
-        width: 200px;
-        height: 100px;
-        border: 1px solid white;
-        padding: 10px;
-        margin: 10px;
-        top: 50%;
-        left: 50%;
-        transform: translate(50,-50);
-      }
+    .dirbtn {
+        text-align: center;
+    }
+.Information {
+    color: white;
+    text-align: center;
+    text-wrap: wrap;
+    font-size: x-large !important;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.SampleVideo {
+    color: white;
+    text-align: left;
+}
+.r-1 {
+    color: white;
+    text-align: center;
+    text-wrap: wrap;
+}
+.rules {
+    color: white;
+    text-align:center;
+    text-wrap: wrap;
+}
+    .info {
+        color: white;
+        text-align: center;
+        text-wrap: wrap;
+    }
 
     .samplevideo {
         top: 50%;
