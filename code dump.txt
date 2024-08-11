@@ -29,9 +29,9 @@ https://css-tricks.com/seamless-responsive-photo-grid/
 
 
 
-    [Window Title]
+    [Window Title] 
 Visual Studio Code
-
+ 
 [Main Instruction]
 The window has crashed (reason: 'crashed', code: '-1073741674')
 
